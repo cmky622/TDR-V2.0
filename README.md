@@ -8,7 +8,7 @@ local Players = game:GetService("Players")
 
 -- 创建窗口
 local Window = Rayfield:CreateWindow({
-    Name = "TDR透视",
+    Name = "TDR ESP V2.0",
     Icon = 0,
     LoadingTitle = "加载中...",
     LoadingSubtitle = "高亮功能初始化",
@@ -20,7 +20,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 -- 创建主标签页
-local MainTab = Window:CreateTab("高亮控制", nil)
+local MainTab = Window:CreateTab("自定义ESP", nil)
 local FixedItemsTab = Window:CreateTab("固定物品ESP", nil) -- 新增的固定物品ESP标签页
 
 -- ========== 高亮控制标签页 ==========
